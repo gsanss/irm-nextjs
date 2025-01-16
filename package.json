@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write src",
+    "clean:code": "yarn lint && yarn format"
   },
   "dependencies": {
     "eslint-config-prettier": "^10.0.1",
