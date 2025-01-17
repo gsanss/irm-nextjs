@@ -1,6 +1,5 @@
 import NextAuth, { Account, Profile, Session, User } from 'next-auth'
 import Okta from 'next-auth/providers/okta'
-import { random } from 'nanoid'
 import { JWT } from 'next-auth/jwt'
 import { AdapterUser } from 'next-auth/adapters'
 
